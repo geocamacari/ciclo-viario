@@ -40,7 +40,7 @@ var wms_layers = [];
         var lyr_GoogleSatlite_3 = new ol.layer.Tile({
             'title': 'Google Satélite',
             //'type': 'base',
-            'opacity': 0.650000,
+            'opacity': 0.600000,
             
             
             source: new ol.source.XYZ({
@@ -104,9 +104,9 @@ maxResolution:140.0223307613098,
             //'type': 'base',
             'opacity': 1.000000,
             
-maxResolution:84.0133984567859,
+maxResolution:14.00223307613098,
 
-            minResolution:0.7001116538065492,
+            minResolution:0.28004466152261964,
 
             source: new ol.source.XYZ({
     attributions: ' &middot; <a href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map data ©2015 Google</a>',
@@ -161,7 +161,7 @@ maxResolution:84.0133984567859,
 
                 style: style_EixosRodEstSEINFRABa2021_10,
                 popuplayertitle: "Eixos Rod. Est. (SEINFRA-Ba/2021)",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/EixosRodEstSEINFRABa2021_10.png" /> Eixos Rod. Est. (SEINFRA-Ba/2021)'
             });
 var format_SistCiclovirioPropostoSEINFRA2024_11 = new ol.format.GeoJSON();
@@ -175,7 +175,7 @@ var lyr_SistCiclovirioPropostoSEINFRA2024_11 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_SistCiclovirioPropostoSEINFRA2024_11,
 maxResolution:21.003349614196473,
- minResolution:0.28004466152261964,
+ minResolution:0.14002233076130982,
 
                 style: style_SistCiclovirioPropostoSEINFRA2024_11,
                 popuplayertitle: "Sist. Cicloviário Proposto (SEINFRA/2024)",
@@ -197,7 +197,7 @@ var lyr_SistCiclovirioExistenteSEINFRA2024_12 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_SistCiclovirioExistenteSEINFRA2024_12,
 maxResolution:21.003349614196473,
- minResolution:0.28004466152261964,
+ minResolution:0.14002233076130982,
 
                 style: style_SistCiclovirioExistenteSEINFRA2024_12,
                 popuplayertitle: "Sist. Cicloviário Existente (SEINFRA/2024)",
@@ -216,8 +216,8 @@ jsonSource_ParaciclosSTT2024_13.addFeatures(features_ParaciclosSTT2024_13);
 var lyr_ParaciclosSTT2024_13 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_ParaciclosSTT2024_13,
-maxResolution:14.00223307613098,
- minResolution:0.28004466152261964,
+maxResolution:8.401339845678589,
+ minResolution:0.14002233076130982,
 
                 style: style_ParaciclosSTT2024_13,
                 popuplayertitle: "Paraciclos (STT/2024)",
@@ -237,8 +237,8 @@ jsonSource_BICICLETARIO_PLANO_CICLOVIARIO_14.addFeatures(features_BICICLETARIO_P
 var lyr_BICICLETARIO_PLANO_CICLOVIARIO_14 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_BICICLETARIO_PLANO_CICLOVIARIO_14,
-maxResolution:42.00669922839295,
- minResolution:0.28004466152261964,
+maxResolution:35.00558269032745,
+ minResolution:0.14002233076130982,
 
                 style: style_BICICLETARIO_PLANO_CICLOVIARIO_14,
                 popuplayertitle: "BICICLETARIO_PLANO_CICLOVIARIO",
@@ -256,7 +256,7 @@ var lyr_ESTACOES_DE_COMPARTILHAMENTO_PLANO_CICLOVIARIO_15 = new ol.layer.Vector(
                 declutter: false,
                 source:jsonSource_ESTACOES_DE_COMPARTILHAMENTO_PLANO_CICLOVIARIO_15,
 maxResolution:42.00669922839295,
- minResolution:0.28004466152261964,
+ minResolution:0.14002233076130982,
 
                 style: style_ESTACOES_DE_COMPARTILHAMENTO_PLANO_CICLOVIARIO_15,
                 popuplayertitle: "ESTACOES_DE_COMPARTILHAMENTO_PLANO_CICLOVIARIO",
@@ -292,7 +292,7 @@ var lyr_PontosdeParada_ORLASTT2023_17 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_PontosdeParada_ORLASTT2023_17,
 maxResolution:7.00111653806549,
- minResolution:0.28004466152261964,
+ minResolution:0.14002233076130982,
 
                 style: style_PontosdeParada_ORLASTT2023_17,
                 popuplayertitle: "Pontos de Parada_ORLA (STT/2023)",
@@ -310,7 +310,7 @@ var lyr_PontosdeParada_SEDESTT2023_18 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_PontosdeParada_SEDESTT2023_18,
 maxResolution:7.00111653806549,
- minResolution:0.28004466152261964,
+ minResolution:0.14002233076130982,
 
                 style: style_PontosdeParada_SEDESTT2023_18,
                 popuplayertitle: "Pontos de Parada_SEDE (STT/2023)",
@@ -327,8 +327,8 @@ jsonSource_PassarelasemRodovias_19.addFeatures(features_PassarelasemRodovias_19)
 var lyr_PassarelasemRodovias_19 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_PassarelasemRodovias_19,
-maxResolution:42.00669922839295,
- minResolution:0.28004466152261964,
+maxResolution:14.00223307613098,
+ minResolution:0.14002233076130982,
 
                 style: style_PassarelasemRodovias_19,
                 popuplayertitle: "Passarelas em Rodovias",
@@ -346,7 +346,7 @@ var lyr_Paradasdenibusemrodovias2022_20 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_Paradasdenibusemrodovias2022_20,
 maxResolution:14.00223307613098,
- minResolution:0.28004466152261964,
+ minResolution:0.14002233076130982,
 
                 style: style_Paradasdenibusemrodovias2022_20,
                 popuplayertitle: "Paradas de ônibus em rodovias (2022)",
@@ -441,7 +441,7 @@ var lyr_LimitesMunicpiosRMS2020_25 = new ol.layer.Vector({
                 title: '<img src="styles/legend/LimitesMunicpiosRMS2020_25.png" /> Limites Municípios/RMS (2020)'
             });
 
-lyr_OpenTopoMap_0.setVisible(false);lyr_OSMStandard_1.setVisible(false);lyr_WazeWorld_2.setVisible(true);lyr_GoogleSatlite_3.setVisible(true);lyr_Ortofoto2022SEFAZPMC_4.setVisible(false);lyr_Ortofoto2017SEFAZPMC_5.setVisible(false);lyr_GoogleTraffic_6.setVisible(false);lyr_GoogleLabels_7.setVisible(false);lyr_EsriBoundariesandPlaces_8.setVisible(true);lyr_LogradourosOficializadoseouCepeados_9.setVisible(false);lyr_EixosRodEstSEINFRABa2021_10.setVisible(true);lyr_SistCiclovirioPropostoSEINFRA2024_11.setVisible(true);lyr_SistCiclovirioExistenteSEINFRA2024_12.setVisible(true);lyr_ParaciclosSTT2024_13.setVisible(true);lyr_BICICLETARIO_PLANO_CICLOVIARIO_14.setVisible(true);lyr_ESTACOES_DE_COMPARTILHAMENTO_PLANO_CICLOVIARIO_15.setVisible(true);lyr_LinhaseItinerrios_nibusSTTJun2023_16.setVisible(false);lyr_PontosdeParada_ORLASTT2023_17.setVisible(true);lyr_PontosdeParada_SEDESTT2023_18.setVisible(true);lyr_PassarelasemRodovias_19.setVisible(true);lyr_Paradasdenibusemrodovias2022_20.setVisible(true);lyr_PraasdePedgiorodestaduais_21.setVisible(true);lyr_Localidadesdiversas2023_22.setVisible(true);lyr_Bairros2022vigente_23.setVisible(false);lyr_DistritosMunicipais2020_24.setVisible(false);lyr_LimitesMunicpiosRMS2020_25.setVisible(true);
+lyr_OpenTopoMap_0.setVisible(false);lyr_OSMStandard_1.setVisible(false);lyr_WazeWorld_2.setVisible(true);lyr_GoogleSatlite_3.setVisible(true);lyr_Ortofoto2022SEFAZPMC_4.setVisible(false);lyr_Ortofoto2017SEFAZPMC_5.setVisible(false);lyr_GoogleTraffic_6.setVisible(false);lyr_GoogleLabels_7.setVisible(false);lyr_EsriBoundariesandPlaces_8.setVisible(true);lyr_LogradourosOficializadoseouCepeados_9.setVisible(false);lyr_EixosRodEstSEINFRABa2021_10.setVisible(false);lyr_SistCiclovirioPropostoSEINFRA2024_11.setVisible(true);lyr_SistCiclovirioExistenteSEINFRA2024_12.setVisible(true);lyr_ParaciclosSTT2024_13.setVisible(true);lyr_BICICLETARIO_PLANO_CICLOVIARIO_14.setVisible(true);lyr_ESTACOES_DE_COMPARTILHAMENTO_PLANO_CICLOVIARIO_15.setVisible(true);lyr_LinhaseItinerrios_nibusSTTJun2023_16.setVisible(false);lyr_PontosdeParada_ORLASTT2023_17.setVisible(true);lyr_PontosdeParada_SEDESTT2023_18.setVisible(true);lyr_PassarelasemRodovias_19.setVisible(true);lyr_Paradasdenibusemrodovias2022_20.setVisible(true);lyr_PraasdePedgiorodestaduais_21.setVisible(true);lyr_Localidadesdiversas2023_22.setVisible(true);lyr_Bairros2022vigente_23.setVisible(false);lyr_DistritosMunicipais2020_24.setVisible(false);lyr_LimitesMunicpiosRMS2020_25.setVisible(true);
 var layersList = [lyr_OpenTopoMap_0,lyr_OSMStandard_1,lyr_WazeWorld_2,lyr_GoogleSatlite_3,lyr_Ortofoto2022SEFAZPMC_4,lyr_Ortofoto2017SEFAZPMC_5,lyr_GoogleTraffic_6,lyr_GoogleLabels_7,lyr_EsriBoundariesandPlaces_8,lyr_LogradourosOficializadoseouCepeados_9,lyr_EixosRodEstSEINFRABa2021_10,lyr_SistCiclovirioPropostoSEINFRA2024_11,lyr_SistCiclovirioExistenteSEINFRA2024_12,lyr_ParaciclosSTT2024_13,lyr_BICICLETARIO_PLANO_CICLOVIARIO_14,lyr_ESTACOES_DE_COMPARTILHAMENTO_PLANO_CICLOVIARIO_15,lyr_LinhaseItinerrios_nibusSTTJun2023_16,lyr_PontosdeParada_ORLASTT2023_17,lyr_PontosdeParada_SEDESTT2023_18,lyr_PassarelasemRodovias_19,lyr_Paradasdenibusemrodovias2022_20,lyr_PraasdePedgiorodestaduais_21,lyr_Localidadesdiversas2023_22,lyr_Bairros2022vigente_23,lyr_DistritosMunicipais2020_24,lyr_LimitesMunicpiosRMS2020_25];
 lyr_LogradourosOficializadoseouCepeados_9.set('fieldAliases', {'id': 'id', 'codlog_': 'codlog_', 'logradour_': 'logradour_', 'parcelame_': 'parcelame_', 'bairro_': 'bairro_', 'distrito_': 'distrito_', 'cep_': 'cep_', 'obs_1': 'obs_1', 'obs_2': 'obs_2', 'webmap': 'webmap', 'compriment': 'compriment', 'CORREIOS': 'CORREIOS', });
 lyr_EixosRodEstSEINFRABa2021_10.set('fieldAliases', {'Name': 'Name', 'fid': 'fid', 'Codigo SRE': 'Codigo SRE', 'UF': 'UF', 'Rodovia': 'Rodovia', 'Local Iní': 'Local Iní', 'Km Inicial': 'Km Inicial', 'Km Final': 'Km Final', 'Extensão': 'Extensão', 'Situação': 'Situação', 'Descriçã': 'Descriçã', 'Tipo de Re': 'Tipo de Re', 'Descriç_1': 'Descriç_1', 'Coincide_3': 'Coincide_3', 'Identifica': 'Identifica', 'Extensã_1': 'Extensã_1', 'Status': 'Status', });

@@ -21,7 +21,7 @@ var style_PraasdePedgiorodestaduais_21 = function(feature, resolution){
         labelText = String(feature.get("nome"));
     }
     var style = [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 7.999999999999998 + size,
+        image: new ol.style.Circle({radius: 8.0 + size,
             stroke: new ol.style.Stroke({color: 'rgba(0,0,0,0.7)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.76}), fill: new ol.style.Fill({color: 'rgba(125,7,7,0.7)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
