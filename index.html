@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #c9ecfd!important;
+            color: #000000!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #000000!important;
+        }
+        .search-layer-input-search {
+            background-color: #c9ecfd!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(201, 236, 253, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title>Webmap Sistema Viário e Cicloviário</title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="layers/LogradourosOficializadoseouCepeados_9.js"></script><script src="layers/EixosRodEstSEINFRABa2021_10.js"></script><script src="layers/SistCiclovirioPropostoSEINFRA2024_11.js"></script><script src="layers/SistCiclovirioExistenteSEINFRA2024_12.js"></script><script src="layers/ParaciclosSTT2024_13.js"></script><script src="layers/BICICLETARIO_PLANO_CICLOVIARIO_14.js"></script><script src="layers/ESTACOES_DE_COMPARTILHAMENTO_PLANO_CICLOVIARIO_15.js"></script><script src="layers/LinhaseItinerrios_nibusSTTJun2023_16.js"></script><script src="layers/PontosdeParada_ORLASTT2023_17.js"></script><script src="layers/PontosdeParada_SEDESTT2023_18.js"></script><script src="layers/PassarelasemRodovias_19.js"></script><script src="layers/Paradasdenibusemrodovias2022_20.js"></script><script src="layers/PraasdePedgiorodestaduais_21.js"></script><script src="layers/Localidadesdiversas2023_22.js"></script><script src="layers/Bairros2022vigente_23.js"></script><script src="layers/DistritosMunicipais2020_24.js"></script><script src="layers/LimitesMunicpiosRMS2020_25.js"></script>
+        <script src="styles/LogradourosOficializadoseouCepeados_9_style.js"></script><script src="styles/EixosRodEstSEINFRABa2021_10_style.js"></script><script src="styles/SistCiclovirioPropostoSEINFRA2024_11_style.js"></script><script src="styles/SistCiclovirioExistenteSEINFRA2024_12_style.js"></script><script src="styles/ParaciclosSTT2024_13_style.js"></script><script src="styles/BICICLETARIO_PLANO_CICLOVIARIO_14_style.js"></script><script src="styles/ESTACOES_DE_COMPARTILHAMENTO_PLANO_CICLOVIARIO_15_style.js"></script><script src="styles/LinhaseItinerrios_nibusSTTJun2023_16_style.js"></script><script src="styles/PontosdeParada_ORLASTT2023_17_style.js"></script><script src="styles/PontosdeParada_SEDESTT2023_18_style.js"></script><script src="styles/PassarelasemRodovias_19_style.js"></script><script src="styles/Paradasdenibusemrodovias2022_20_style.js"></script><script src="styles/PraasdePedgiorodestaduais_21_style.js"></script><script src="styles/Localidadesdiversas2023_22_style.js"></script><script src="styles/Bairros2022vigente_23_style.js"></script><script src="styles/DistritosMunicipais2020_24_style.js"></script><script src="styles/LimitesMunicpiosRMS2020_25_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>
+    </body>
+</html>
