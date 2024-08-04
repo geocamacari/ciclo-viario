@@ -50,6 +50,8 @@ var json_ESTACOES_DE_COMPARTILHAMENTO_PLANO_CICLOVIARIO_15 = {
 { "type": "Feature", "properties": { "id": "45", "OBS": "SUGESTAO PLANO CICLOVIARIO" }, "geometry": { "type": "Point", "coordinates": [ -38.130125152170159, -12.706387049421366 ] } },
 { "type": "Feature", "properties": { "id": "46", "OBS": "SUGESTAO PLANO CICLOVIARIO" }, "geometry": { "type": "Point", "coordinates": [ -38.078520473047696, -12.64735703159001 ] } },
 { "type": "Feature", "properties": { "id": "47", "OBS": "SUGESTAO PLANO CICLOVIARIO" }, "geometry": { "type": "Point", "coordinates": [ -38.040310793458424, -12.606063757958765 ] } },
-{ "type": "Feature", "properties": { "id": "48", "OBS": "SUGESTAO PLANO CICLOVIARIO" }, "geometry": { "type": "Point", "coordinates": [ -38.05185429174702, -12.588876524493539 ] } }
+{ "type": "Feature", "properties": { "id": "48", "OBS": "SUGESTAO PLANO CICLOVIARIO" }, "geometry": { "type": "Point", "coordinates": [ -38.05185429174702, -12.588876524493539 ] } },
+{ "type": "Feature", "properties": { "id": null, "OBS": "SUGESTAO PLANO CICLOVIARIO" }, "geometry": { "type": "Point", "coordinates": [ -38.248969328115358, -12.818384009004788 ] } },
+{ "type": "Feature", "properties": { "id": null, "OBS": "SUGESTAO PLANO CICLOVIARIO" }, "geometry": { "type": "Point", "coordinates": [ -38.161766056010627, -12.724808708301367 ] } }
 ]
 }
